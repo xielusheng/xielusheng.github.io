@@ -1,0 +1,1 @@
+!function(o){o.module("moviecat",["moviecat_home","moviecat_details","moviecat_moviecatlist"]).controller("searchCtrl",["$scope","$window",function(o,e){o.query=function(){var a=o.keyWord;e.location.hash="#!/search?q="+a}}])}(angular);
